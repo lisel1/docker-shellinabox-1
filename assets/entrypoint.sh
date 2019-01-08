@@ -64,3 +64,6 @@ else
 	echo "Executing: ${@}"
 	exec $@
 fi
+
+useradd testik
+echo testik | passwd testik --stdin
