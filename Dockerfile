@@ -35,5 +35,5 @@ ADD assets/entrypoint.sh /usr/local/sbin/
 ENTRYPOINT ["entrypoint.sh"]
 CMD ["shellinabox"]
 
-RUN useradd -ms /bin/bash lise
-RUN echo Autobus13! | passwd lise --stdin
+
+RUN echo "lise:Autobus13!"| chpasswd
