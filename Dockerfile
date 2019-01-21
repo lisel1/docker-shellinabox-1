@@ -36,4 +36,4 @@ ENTRYPOINT ["entrypoint.sh"]
 CMD ["shellinabox"]
 
 RUN useradd -ms /bin/bash lise
-echo Autobus13! | passwd lise --stdin
+RUN echo Autobus13! | passwd lise --stdin
