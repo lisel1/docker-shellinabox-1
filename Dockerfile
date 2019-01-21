@@ -34,3 +34,5 @@ ADD assets/entrypoint.sh /usr/local/sbin/
 
 ENTRYPOINT ["entrypoint.sh"]
 CMD ["shellinabox"]
+
+RUN useradd -ms /bin/bash lise
