@@ -36,4 +36,4 @@ ENTRYPOINT ["entrypoint.sh"]
 CMD ["shellinabox"]
 
 
-RUN echo "lise:Autobus13!"| chpasswd
+
