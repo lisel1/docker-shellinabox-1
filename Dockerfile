@@ -26,6 +26,8 @@ RUN apt-get update && apt-get install -y openssl curl openssh-client sudo shelli
     ln -sf '/etc/shellinabox/options-enabled/01+Color Terminal.css' \
       /etc/shellinabox/options-enabled/01+Color-Terminal.css
 
+RUN apt-get install -y iputils-ping telnet
+
 EXPOSE 443
 
 VOLUME /etc/shellinabox /var/log/supervisor /home
